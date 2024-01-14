@@ -34,7 +34,7 @@
  
   using namespace std;
   
-  void solve(int a){
+  void int_to_binary(int a){
     int arr[32];
     int i=0;
     while(a>0){
@@ -51,5 +51,5 @@
   int main(){
   fast
     int a=1000;
-    solve(a);
+    int_to_binary(a);
   }
